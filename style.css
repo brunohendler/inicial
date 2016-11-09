@@ -1,0 +1,111 @@
+
+header{
+    background-color: black ;
+
+    width: 100%;
+    height: 100px;
+    color: mintcream;
+
+}
+
+nav{
+    width: 12%;
+    height: 700px;
+    background-color: black ;
+    padding: 2%;
+    float: left;
+
+
+}
+.menu{
+    color: white;
+    font-family: Arial;
+}
+
+
+
+section{
+    float: left;
+    width: 84%;
+}
+
+footer {
+
+    width: 100%;
+    height: 20%;
+    background-color: #080808;
+    text-align: center;
+    float: left;
+}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+
+
+/* Style da principal */
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+/* Style do menu */
+
+#button {
+    width: 10em;
+    border-right: 1px solid #000;
+    padding: 0 0 1em 0;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+    background-color: blue;
+    color: #333;
+}
+
+#button ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#button li {
+    border-bottom: 1px solid #90bade;
+    margin: 1em;
+    list-style: none;
+    list-style-image: none;
+}
+
+#button li a {
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    border-left: 10px solid deepskyblue;
+    border-right: 10px solid #508fc4;
+    background-color: #2175bc;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+
+html>body #button li a {
+    width: auto;
+}
+
+#button li a:hover {
+    border-left: 10px solid #1c64d1;
+    border-right: 10px solid #5ba3e0;
+    background-color: #2586d7;
+    color: #fff;
+}

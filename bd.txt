@@ -1,0 +1,60 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.3
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tempo de Geração: Out 21, 2016 as 08:56 PM
+-- Versão do Servidor: 5.0.51
+-- Versão do PHP: 5.2.5
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Banco de Dados: `lpw`
+--
+CREATE DATABASE `lpw` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `lpw`;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `clientes`
+--
+
+CREATE TABLE `clientes` (
+  `id` int(11) NOT NULL auto_increment,
+  `nome` varchar(50) NOT NULL,
+  `tel` varchar(50) NOT NULL,
+  `endereco` varchar(50) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
+
+--
+-- Extraindo dados da tabela `clientes`
+--
+
+INSERT INTO `clientes` (`id`, `nome`, `tel`, `endereco`) VALUES
+(1, 'bruno', '87887', 'pa'),
+(2, 'vini', '9898', 'papa'),
+(3, 'leo', '0909', 'paappa'),
+(4, 'giovani', '0937', 'papapapa'),
+(5, 'felipe', '7626', 'papapapapa');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `usuario` varchar(50) NOT NULL,
+  `senha` varchar(50) NOT NULL,
+  PRIMARY KEY  (`usuario`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `usuarios`
+--
+
+INSERT INTO `usuarios` (`usuario`, `senha`) VALUES
+('a', 'a');
